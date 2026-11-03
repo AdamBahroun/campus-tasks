@@ -6,6 +6,9 @@ services:
     environment:
       DB_HOST: db
       DB_PORT: "5432"
+      DB_NAME: campus
+      DB_USER: campus
+      DB_PASSWORD: dev-password
     depends_on:
       - db
 
