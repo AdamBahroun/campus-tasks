@@ -2,24 +2,24 @@
 set -u
 errors=0
 required=(README.md .gitignore .env.example docs/api.md docs/setup.md)
-echo &quot;[CHECK] Campus Tasks&quot;
-for file in &quot;${required[@]}&quot;; do
-if [[ -f &quot;$file&quot; ]]; then
-echo &quot;[OK] $file&quot;
-else
-echo &quot;[ERREUR] fichier absent: $file&quot; &gt;&amp;2
-errors=$((errors + 1))
-fi
+echo "[CHECK] Campus Tasks"
+for file in "${required[@]}"; do
+  if [[ -f "$file" ]]; then
+    echo "[OK] $file"
+  else
+    echo "[ERREUR] fichier absent: $file" >&2
+    errors=$((errors + 1))
+  fi
 done
-if git ls-files | grep -Eq &#39;(^|/)\.env$&#39;; then
-echo &quot;[ERREUR] un fichier .env est suivi par Git&quot; &gt;&amp;2
-errors=$((errors + 1))
+if git ls-files | grep -Eq '(^|/)\.env$'; then
+  echo "[ERREUR] un fichier .env est suivi par Git" >&2
+  errors=$((errors + 1))
 else
-echo &quot;[OK] aucun .env suivi&quot;
+  echo "[OK] aucun .env suivi"
 fi
 if [[ $errors -gt 0 ]]; then
-echo &quot;[ECHEC] $errors erreur(s)&quot; &gt;&amp;2
-exit 1
+  echo "[ECHEC] $errors erreur(s)" >&2
+  exit 1
 fi
-echo &quot;[SUCCES] contrôles validés&quot;
+echo "[SUCCES] contrôles validés"
 exit 0
