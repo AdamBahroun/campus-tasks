@@ -33,4 +33,5 @@ def db_check():
 
 
 if __name__ == "__main__":
+    __import__("os").environ["CLE_API_OBLIGATOIRE"]
     app.run(host="0.0.0.0", port=8080)
