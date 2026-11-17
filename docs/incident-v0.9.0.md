@@ -1,0 +1,6 @@
+# Incident staging v0.9.0
+- Ce qui s'est passé : ...
+- Détecté à : ... (par wait-healthy.sh, code 1)
+- Action : retour arrière vers v1.0.0 en changeant IMAGE_TAG, sans reconstruction.
+- Indisponibilité : ... secondes
+- Prévention : ...
