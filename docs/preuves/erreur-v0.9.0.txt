@@ -6,3 +6,45 @@ api-1  |     __import__("os").environ["CLE_API_OBLIGATOIRE"]
 api-1  |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
 api-1  |   File "<frozen os>", line 714, in __getitem__
 api-1  | KeyError: 'CLE_API_OBLIGATOIRE'
+api-1  | Traceback (most recent call last):
+api-1  |   File "/app/app/app.py", line 36, in <module>
+api-1  |     __import__("os").environ["CLE_API_OBLIGATOIRE"]
+api-1  |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "<frozen os>", line 714, in __getitem__
+api-1  | KeyError: 'CLE_API_OBLIGATOIRE'
+api-1  | Traceback (most recent call last):
+api-1  |   File "/app/app/app.py", line 36, in <module>
+api-1  |     __import__("os").environ["CLE_API_OBLIGATOIRE"]
+api-1  |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "<frozen os>", line 714, in __getitem__
+api-1  | KeyError: 'CLE_API_OBLIGATOIRE'
+api-1  | Traceback (most recent call last):
+api-1  |   File "/app/app/app.py", line 36, in <module>
+api-1  |     __import__("os").environ["CLE_API_OBLIGATOIRE"]
+api-1  |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "<frozen os>", line 714, in __getitem__
+api-1  | KeyError: 'CLE_API_OBLIGATOIRE'
+api-1  | Traceback (most recent call last):
+api-1  |   File "/app/app/app.py", line 36, in <module>
+api-1  |     __import__("os").environ["CLE_API_OBLIGATOIRE"]
+api-1  |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "<frozen os>", line 714, in __getitem__
+api-1  | KeyError: 'CLE_API_OBLIGATOIRE'
+api-1  | Traceback (most recent call last):
+api-1  |   File "/app/app/app.py", line 36, in <module>
+api-1  |     __import__("os").environ["CLE_API_OBLIGATOIRE"]
+api-1  |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "<frozen os>", line 714, in __getitem__
+api-1  | KeyError: 'CLE_API_OBLIGATOIRE'
+api-1  | Traceback (most recent call last):
+api-1  |   File "/app/app/app.py", line 36, in <module>
+api-1  |     __import__("os").environ["CLE_API_OBLIGATOIRE"]
+api-1  |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "<frozen os>", line 714, in __getitem__
+api-1  | KeyError: 'CLE_API_OBLIGATOIRE'
+api-1  | Traceback (most recent call last):
+api-1  |   File "/app/app/app.py", line 36, in <module>
+api-1  |     __import__("os").environ["CLE_API_OBLIGATOIRE"]
+api-1  |     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "<frozen os>", line 714, in __getitem__
+api-1  | KeyError: 'CLE_API_OBLIGATOIRE'
