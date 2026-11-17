@@ -1,0 +1,6 @@
+services:
+  api:
+    image: ghcr.io/adambahroun/campus-tasks:${IMAGE_TAG:?IMAGE_TAG manquant}
+    ports: ["8080:8080"]
+    env_file: [.env.staging]
+    restart: unless-stopped
