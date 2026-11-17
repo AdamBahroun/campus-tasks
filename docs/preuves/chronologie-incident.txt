@@ -1,0 +1,19 @@
+debut: 15:04:29
+time="2026-11-17T15:04:29+01:00" level=warning msg="Found orphan containers ([campus-tasks-adminer-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container campus-tasks-api-1  Recreate
+ Container campus-tasks-api-1  Recreated
+ Container campus-tasks-api-1  Starting
+ Container campus-tasks-api-1  Started
+v0.9.0 non sain, code: 1 a 15:05:40
+NAME                 IMAGE                                     COMMAND               SERVICE   CREATED              STATUS                         PORTS
+campus-tasks-api-1   ghcr.io/adambahroun/campus-tasks:v0.9.0   "python app/app.py"   api       About a minute ago   Restarting (1) 6 seconds ago   
+time="2026-11-17T15:05:41+01:00" level=warning msg="Found orphan containers ([campus-tasks-adminer-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container campus-tasks-api-1  Recreate
+ Container campus-tasks-api-1  Recreated
+ Container campus-tasks-api-1  Starting
+ Container campus-tasks-api-1  Started
+curl: (56) Recv failure: Connection reset by peer
+{"status":"ok"}
+staging sain
+rollback code: 0 a 15:05:46
+indisponibilite: 77 s
